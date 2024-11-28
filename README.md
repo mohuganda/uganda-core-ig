@@ -1,6 +1,6 @@
 # Uganda-Core-FHIR-Implementation Guide
 
-Welcome to the Uganda Core FHIR Implementation Guide (IG). This IG aims to provide comprehensive guidance on the implementation of FHIR resources and profiles for Health Information in Uganda.
+Welcome to the Uganda Core FHIR Implementation Guide (IG). This IG aims to provide comprehensive guidance on the implementation of FHIR resources and profiles for Health Information Exchange in Uganda.
 
 In this IG, you will find detailed information on the FHIR resources and profiles specific to health diagnostics, including laboratory tests, imaging studies, and clinical observations. We will explore how these resources can be used to capture and exchange diagnostic data in a standardized and interoperable manner.
 
