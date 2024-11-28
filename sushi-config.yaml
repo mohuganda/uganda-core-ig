@@ -1,0 +1,24 @@
+id: hl7.fhir.uganda.core
+canonical: http://hl7.org/fhir/us/core
+name: UGCore
+title: UGANDA FHIR IMPLEMENETATION IG
+description: Uganda Health Information Exchange FHIR Implementation Guide
+status: draft
+version: 3.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2024+
+releaseLabel: Build CI
+publisher:
+  name: Ministry of Health Uganda
+  url: https://www.health.go.ug
+
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+
+parameters:
+  apply-contact: true
+  apply-jurisdiction: true
+  apply-publisher: true

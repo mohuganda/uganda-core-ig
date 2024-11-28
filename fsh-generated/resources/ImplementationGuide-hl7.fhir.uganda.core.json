@@ -1,0 +1,72 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.uganda.core",
+  "url": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.uganda.core",
+  "version": "3.1.0",
+  "name": "UGCore",
+  "title": "UGANDA FHIR IMPLEMENETATION IG",
+  "status": "draft",
+  "publisher": "Ministry of Health Uganda",
+  "contact": [
+    {
+      "name": "Ministry of Health Uganda",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.health.go.ug"
+        }
+      ]
+    }
+  ],
+  "description": "Uganda Health Information Exchange FHIR Implementation Guide",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "001",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "packageId": "hl7.fhir.uganda.core",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "Build CI"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "apply-jurisdiction",
+        "value": "true"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "path-history",
+        "value": "http://hl7.org/fhir/us/core/history.html"
+      }
+    ]
+  }
+}
