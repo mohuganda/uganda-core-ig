@@ -1,9 +1,9 @@
 {
   "resourceType": "Patient",
-  "id": "PatientExample",
+  "id": "UgandaPatientExample",
   "meta": {
     "profile": [
-      "http://fhir.health.go.ug/StructureDefinition/MyPatient"
+      "http://fhir.health.go.ug/StructureDefinition/Uganda-Patient"
     ]
   },
   "name": [

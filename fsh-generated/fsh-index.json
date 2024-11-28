@@ -1,0 +1,18 @@
+[
+  {
+    "outputFile": "Patient-UgandaPatientExample.json",
+    "fshName": "UgandaPatientExample",
+    "fshType": "Instance",
+    "fshFile": "patient.fsh",
+    "startLine": 8,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-Uganda-Patient.json",
+    "fshName": "UgandaPatient",
+    "fshType": "Profile",
+    "fshFile": "patient.fsh",
+    "startLine": 1,
+    "endLine": 6
+  }
+]

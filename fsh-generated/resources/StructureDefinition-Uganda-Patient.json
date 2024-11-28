@@ -1,0 +1,25 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Uganda-Patient",
+  "url": "http://fhir.health.go.ug/StructureDefinition/Uganda-Patient",
+  "name": "UgandaPatient",
+  "title": "Uganda Patient (IPS)",
+  "status": "draft",
+  "description": "This profile represents the constraints applied to the Patient resource by the International Patient Summary (IPS) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the IPS composition or in one of the referred resources.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.name",
+        "path": "Patient.name",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+Output File                              Name                  Type      FSH File     Lines
+Patient-UgandaPatientExample.json        UgandaPatientExample  Instance  patient.fsh  8 - 13
+StructureDefinition-Uganda-Patient.json  UgandaPatient         Profile   patient.fsh  1 - 6
