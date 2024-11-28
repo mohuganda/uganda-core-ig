@@ -1,0 +1,25 @@
+UgandaCoreFHIRIG : Validation Results
+=========================================
+
+err = 1, warn = 5, info = 0
+IG Publisher Version: 1.7.5
+Generated Thu Nov 28 20:45:09 EAT 2024. FHIR version 4.0.1 for hl7.fhir.uganda.core#1.1.0 (canonical = http://fhir.health.go.ug)
+ Build Errors : 4 / 4 / 0
+ D:\projects\uganda-core-ig\fsh-generated\resources\ImplementationGuide-hl7.fhir.uganda.core : 0 / 1 / 1
+ D:\projects\uganda-core-ig\fsh-generated\resources\Patient-UgandaPatientExample : 0 / 0 / 1
+ D:\projects\uganda-core-ig\fsh-generated\resources\StructureDefinition-Uganda-Patient : 1 / 0 / 1
+</table>
+== n/a ==
+ERROR: D:\projects\uganda-core-ig\output\index.html#/html/body/div/div/div/div/div/ol/li/p/strong/a at Line 245, column 17: The link 'StructureDefinition-UgandaDiagnosticReport.html' for "UgandaDiagnosticReport" cannot be resolved
+ERROR: D:\projects\uganda-core-ig\output\index.html#/html/body/div/div/div/div/div/ol/li/p/strong/a at Line 248, column 17: The link 'StructureDefinition-UgandaHealthProviderOrganization.html' for "UgandaOrganization" cannot be resolved
+ERROR: D:\projects\uganda-core-ig\output\index.html#/html/body/div/div/div/div/div/ol/li/p/strong/a at Line 251, column 17: The link 'StructureDefinition-UgandaDiagnosticServiceRequest.html' for "UgandaServiceRequest" cannot be resolved
+ERROR: D:\projects\uganda-core-ig\output\index.html#/html/body/div/div/div/div/div/ol/li/p/strong/a at Line 254, column 17: The link 'StructureDefinition-Uganda-patient-ips.html' for "UgandaPatient (IPS)" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\ImplementationGuide-hl7.fhir.uganda.core.json ==
+WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.uganda.core, jurisdiction = urn:iso:std:iso:3166#UGANDA instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#UGANDA "null"')
+== fsh-generated\resources\Patient-UgandaPatientExample.json ==
+== fsh-generated\resources\StructureDefinition-Uganda-Patient.json ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.uganda.core, jurisdiction = urn:iso:std:iso:3166#UGANDA instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#UGANDA "null"')
