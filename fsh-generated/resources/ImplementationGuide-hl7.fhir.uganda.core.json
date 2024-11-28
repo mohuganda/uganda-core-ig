@@ -4,7 +4,7 @@
   "url": "http://fhir.health.go.ug/ImplementationGuide/hl7.fhir.uganda.core",
   "version": "1.1.0",
   "name": "UgandaCoreFHIRIG",
-  "title": "UGANDA FHIR IMPLEMENETATION IG",
+  "title": "Uganda Core FHIR Implementation Guide (IG)",
   "status": "draft",
   "publisher": "Ministry of Health Uganda",
   "contact": [

@@ -1,14 +1,14 @@
-# Kenya-Diagnostics-FHIR-IG
+# Uganda Core FHIR Implementation Guide
 
-Welcome to the Kenya Diagnostics FHIR Implementation Guide (IG). This IG aims to provide comprehensive guidance on the implementation of FHIR resources and profiles for health diagnostics in Kenya.
+Welcome to the Uganda Core FHIR Implementation Guide (IG). This IG aims to provide comprehensive guidance on the implementation of FHIR resources and profiles for Health Information Exchange in Uganda for a Shared Health Record.
 
-In this IG, you will find detailed information on the FHIR resources and profiles specific to health diagnostics, including laboratory tests, imaging studies, and clinical observations. We will explore how these resources can be used to capture and exchange diagnostic data in a standardized and interoperable manner.
+In this IG, you will find detailed information on the FHIR resources and profiles specific to the shared health record including health diagnostics, laboratory tests, patient encounters, and clinical observations. We will explore how these resources can be used to capture and exchange clinical data in a standardized and interoperable manner.
 
-Furthermore, this IG will cover best practices for mapping existing diagnostic systems and terminologies used in Kenya to FHIR, ensuring seamless integration and data exchange across different healthcare systems. We will also discuss considerations for data privacy, security, and consent management when implementing FHIR for health diagnostics.
+Furthermore, this IG will cover best practices for mapping existing diagnostic systems and terminologies used in Uganda to FHIR, ensuring seamless integration and data exchange across different healthcare systems. We will also discuss considerations for data privacy, security, and consent management when implementing FHIR for Shared Health Record.
 
-Whether you are a healthcare provider, software developer, or policy maker, this IG will serve as a valuable resource to guide you through the implementation of FHIR for health diagnostics in Kenya. Let's embark on this journey together and unlock the potential of FHIR to improve healthcare outcomes in our country.
+Whether you are a healthcare provider, software developer, or policy maker, this IG will serve as a valuable resource to guide you through the implementation of FHIR in Uganda. Let's embark on this journey together and unlock the potential of FHIR to improve healthcare outcomes in our country.
 
-<!-- ## Actors
+## Actors
 
 The following actors are involved in the diagnostic process and will interact with FHIR resources:
 
@@ -18,7 +18,7 @@ The following actors are involved in the diagnostic process and will interact wi
 
 3. **Radiologist**: The radiologist interprets imaging studies, such as X-rays, CT scans, and MRIs, and generates reports for the healthcare provider. They will use FHIR resources to capture and exchange imaging data in a standardized format.
 
-4. **Patient**: The patient is the individual undergoing diagnostic tests and receiving healthcare services. They may access their diagnostic data through FHIR-enabled applications and share it with other healthcare providers as needed. -->
+4. **Patient**: The patient is the individual undergoing diagnostic tests and receiving healthcare services. They may access their diagnostic data through FHIR-enabled applications and share it with other healthcare providers as needed. 
 
 ### FHIR Resources
 
@@ -38,20 +38,19 @@ This IG uses the following FHIR resources for health diagnostics with additional
 
 This IG defines the following profiles for FHIR resources related to health diagnostics:
 
-1. **[KenyaDiagnosticReport](StructureDefinition-KenyaDiagnosticReport.html)**: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.
+1. **[UgandaDiagnosticReport](StructureDefinition-UgandaDiagnosticReport.html)**: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Uganda. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.
 
-2. **[KenyaOrganization](StructureDefinition-KenyaHealthProviderOrganization.html)**:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.
+2. **[UgandaOrganization](StructureDefinition-UgandaHealthProviderOrganization.html)**:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.
 
-3. **[KenyaServiceRequest](StructureDefinition-KenyaDiagnosticServiceRequest.html)**: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.
+3. **[UgandaServiceRequest](StructureDefinition-UgandaDiagnosticServiceRequest.html)**: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Uganda. It includes elements for the ordering provider, clinical indication, and requested service details.
    
-4. **[KenyaPatient (IPS)](StructureDefinition-Kenya-patient-ips.html)**: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.
+4. **[UgandaPatient (IPS)](StructureDefinition-Uganda-patient-ips.html)**: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.
 
 ### Implementation Guidance
 
-Throughout this IG, you will find implementation guidance on how to use FHIR resources and profiles for health diagnostics in Kenya. We will provide examples, mappings to existing diagnostic systems, and recommendations for data exchange and interoperability.
+Throughout this IG, you will find implementation guidance on how to use FHIR resources and profiles for health diagnostics in Uganda. We will provide examples, mappings to existing diagnostic systems, and recommendations for data exchange and interoperability.
 
 ### References
-See the Laboratory Request Forms for details on [EID & VL](https://nascop.org/) and [TB](https://nltp.co.ke/wp-content/uploads/2023/09/Lab-request-form_Draft_06_06_2023.pdf) for how an application captures a patient record.
 
 ---
-Primary Authors: Benzer Bett, Faith Jepkoech
+Primary Authors: Ministry of Health and its Partners
