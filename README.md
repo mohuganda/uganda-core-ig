@@ -4,6 +4,9 @@ Welcome to the Uganda Core FHIR Implementation Guide (IG). This IG aims to provi
 
 In this IG, you will find detailed information on the FHIR resources and profiles specific to health diagnostics, including laboratory tests, imaging studies, and clinical observations. We will explore how these resources can be used to capture and exchange diagnostic data in a standardized and interoperable manner.
 
+## Link to Uganda-Core-FHIR_IG
+https://mohuganda.github.io/uganda-core-ig/
+
 ## Building the IG
 
 ### Prerequisites
