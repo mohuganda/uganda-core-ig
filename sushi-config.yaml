@@ -1,24 +1,24 @@
 id: hl7.fhir.uganda.core
-canonical: http://hl7.org/fhir/us/core
-name: UGCore
+canonical: http://fhir.health.go.ug
+name: Uganda-Core-FHIR-IG
 title: UGANDA FHIR IMPLEMENETATION IG
 description: Uganda Health Information Exchange FHIR Implementation Guide
 status: draft
-version: 3.1.0
+version: 1.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2024+
-releaseLabel: Build CI
+releaseLabel: ci-build
 publisher:
   name: Ministry of Health Uganda
   url: https://www.health.go.ug
-
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+  email: info@health.go.ug
 
 menu:
   Home: index.html
   Artifacts: artifacts.html
 
-parameters:
-  apply-contact: true
-  apply-jurisdiction: true
-  apply-publisher: true
+instanceOptions:
+  # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
+  # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.
+  # While SUSHI defaults to false for legacy reasons, manualSliceOrding is recommended for new projects.
+  manualSliceOrdering: true # true | false

@@ -1,9 +1,9 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "hl7.fhir.uganda.core",
-  "url": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.uganda.core",
-  "version": "3.1.0",
-  "name": "UGCore",
+  "url": "http://fhir.health.go.ug/ImplementationGuide/hl7.fhir.uganda.core",
+  "version": "1.1.0",
+  "name": "UgandaCoreFHIRIG",
   "title": "UGANDA FHIR IMPLEMENETATION IG",
   "status": "draft",
   "publisher": "Ministry of Health Uganda",
@@ -14,33 +14,72 @@
         {
           "system": "url",
           "value": "https://www.health.go.ug"
+        },
+        {
+          "system": "email",
+          "value": "info@health.go.ug"
         }
       ]
     }
   ],
   "description": "Uganda Health Information Exchange FHIR Implementation Guide",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "code": "001",
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "display": "World"
-        }
-      ]
-    }
-  ],
   "packageId": "hl7.fhir.uganda.core",
   "fhirVersion": [
     "4.0.1"
   ],
   "definition": {
-    "resource": [],
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/fish-patient"
+        },
+        "name": "Fish Patient",
+        "description": "A patient that is a type of fish.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/veterinarian"
+        },
+        "name": "Veterinarian",
+        "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/fish-species"
+        },
+        "name": "Fish Species",
+        "description": "The species name of a piscine (fish) patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/fish-species-value-set"
+        },
+        "name": "Fish Species Value Set",
+        "description": "Codes describing various species of fish from SNOMED-CT.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/Shorty"
+        },
+        "name": "Shorty",
+        "exampleCanonical": "http://fhir.health.go.ug/StructureDefinition/fish-patient"
+      }
+    ],
     "page": {
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": []
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
     },
     "parameter": [
       {
@@ -49,23 +88,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "Build CI"
-      },
-      {
-        "code": "apply-contact",
-        "value": "true"
-      },
-      {
-        "code": "apply-jurisdiction",
-        "value": "true"
-      },
-      {
-        "code": "apply-publisher",
-        "value": "true"
-      },
-      {
-        "code": "path-history",
-        "value": "http://hl7.org/fhir/us/core/history.html"
+        "value": "ci-build"
       }
     ]
   }
